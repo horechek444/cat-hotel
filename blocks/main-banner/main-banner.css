@@ -1,0 +1,13 @@
+@import url(./__background/main-banner__background.css);
+@import url(./__location/main-banner__location.css);
+@import url(./__title/main-banner__title.css);
+@import url(./__subtitle/main-banner__subtitle.css);
+@import url(./__button/main-banner__button.css);
+@import url(./);
+@import url(./);
+
+.main-banner {
+    margin: 0 auto;
+    max-width: 1366px;
+    min-height: 504px;
+}

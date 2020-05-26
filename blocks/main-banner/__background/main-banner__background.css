@@ -1,0 +1,12 @@
+.main-banner__background {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: url(../../../images/main-banner.png), url(../../../images/desktop_cat.jpg);
+    object-fit: cover;
+    max-width: calc(100% - 198px);
+    width: calc(100% - 198px);
+    min-height: 504px;
+    padding: 0 0 0 198px;
+}
