@@ -1,0 +1,15 @@
+.rooms__item {
+    position: relative;
+    max-width: 1198px;
+    padding: 0 0 0 168px;
+}
+
+.rooms__item::after {
+    position: absolute;
+    content: url(../../../images/fish.svg);
+    top: 10px;
+    left: 0;
+    width: 484px;
+    height: 151px;
+    z-index: 0;
+}

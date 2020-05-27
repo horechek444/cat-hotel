@@ -1,0 +1,7 @@
+.rooms__image {
+    position: relative;
+    width: 600px;
+    height: 404px;
+    border-radius: 10px;
+    z-index: 1;
+}
