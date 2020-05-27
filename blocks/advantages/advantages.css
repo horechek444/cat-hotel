@@ -7,7 +7,7 @@
     position: relative;
     max-width: calc(1366px - 98px - 98px);
     background-color: #ffffff;
-    padding: 140px 98px 0;
+    padding: 140px 98px 140px;
     margin: 0 auto;
     overflow: hidden;
 }

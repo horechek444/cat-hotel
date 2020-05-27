@@ -1,7 +1,7 @@
 .rooms__toggle {
     position: relative;
     bottom: -12px;
-    left: calc(1000px - 85px);
+    left: calc(1000px - 55px);
     width: 36px;
     height: 36px;
     box-shadow: 0px 2px 12px rgba(173, 152, 143, 0.25);

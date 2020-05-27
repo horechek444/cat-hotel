@@ -14,7 +14,7 @@
 
 
 .rooms {
-    padding: 140px 168px 0 0;
+    padding: 0 168px 0 0;
     margin: 0 auto;
-    max-width: calc(1366px - 198px);
+    max-width: calc(1366px - 168px);
 }
