@@ -3,8 +3,15 @@
 @import url(./__title/rooms__title.css);
 @import url(./__image/rooms__image.css);
 @import url(./__type/rooms__type.css);
+@import url(./__value/rooms__value.css);
+@import url(./__properties/rooms__properties.css);
+@import url(./__property/rooms__property.css);
+@import url(./__button/rooms__button.css);
+@import url(./__selector/rooms__selector.css);
 @import url();
 @import url();
+@import url();
+
 
 .rooms {
     padding: 140px 168px 0 0;

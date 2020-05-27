@@ -1,7 +1,7 @@
 .rooms__type {
     position: absolute;
-    max-width: 500px;
-    padding: 40px 0 0 100px;
+    max-width: calc(500px - 100px);
+    padding: 40px 0 40px 100px;
     left: 698px;
     top: 155px;
     background: #FFFFFF;

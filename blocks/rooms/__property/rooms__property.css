@@ -1,0 +1,22 @@
+.rooms__property {
+    position: relative;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    margin: 0 0 20px calc(8px + 13px);
+}
+
+.rooms__property:last-of-type {
+    margin-bottom: 30px;
+}
+
+.rooms__property::before {
+    position: absolute;
+    content: '';
+    top: 2px;
+    left: -21px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #FAC663;
+}

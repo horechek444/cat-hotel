@@ -1,0 +1,105 @@
+.rooms__selector {
+    margin-left: 503px;
+}
+
+.rooms__item:nth-child(1) .rooms__selector {
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #E1E1E1;
+    cursor: pointer;
+}
+
+.rooms__item:nth-child(1) .rooms__selector::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #FAC663;
+    cursor: default;
+}
+
+.rooms__item:nth-child(1) .rooms__selector::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #E1E1E1;
+    cursor: pointer;
+}
+
+.rooms__item:nth-child(2) .rooms__selector {
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #FAC663;
+    cursor: default;
+}
+
+.rooms__item:nth-child(2) .rooms__selector::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #E1E1E1;
+    cursor: pointer;
+}
+
+.rooms__item:nth-child(2) .rooms__selector::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #E1E1E1;
+    cursor: pointer;
+}
+
+.rooms__item:nth-child(3) .rooms__selector {
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #E1E1E1;
+    cursor: pointer;
+}
+
+.rooms__item:nth-child(3) .rooms__selector::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #E1E1E1;
+    cursor: pointer;
+}
+
+.rooms__item:nth-child(3) .rooms__selector::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #FAC663;
+    cursor: default;
+}
