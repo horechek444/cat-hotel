@@ -1,0 +1,23 @@
+@import url(./__list/feedback__list.css);
+@import url(./__item/feedback__item.css);
+@import url();
+@import url();
+@import url();
+
+.feedback {
+    position: relative;
+    max-width: 1366px;
+    padding: 140px 0 140px 98px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.feedback::after {
+    position: absolute;
+    content: url(../../images/paw-2.svg);
+    top: -10px;
+    right: -10px;
+    width: 312px;
+    height: 267px;
+    z-index: 0;
+}

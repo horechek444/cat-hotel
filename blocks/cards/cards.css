@@ -6,10 +6,10 @@
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 370px);
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
     grid-gap: 20px 30px;
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    max-width: 1170px;
+    max-width: 100%;
 }

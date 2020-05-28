@@ -7,4 +7,13 @@
     min-height: 50px;
     margin: 0;
     padding: 0;
+    transition: opacity 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:hover::after {
+    transform: scale(1.2);
 }
