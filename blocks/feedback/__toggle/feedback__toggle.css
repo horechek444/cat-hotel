@@ -1,5 +1,5 @@
-.rooms__toggle {
+.feedback__toggle {
     position: absolute;
-    bottom: 0;
+    bottom: 140px;
     right: 168px;
 }

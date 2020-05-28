@@ -1,7 +1,9 @@
 .rooms__item {
     position: relative;
-    max-width: 1198px;
-    padding: 0 0 79px 168px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 168px 79px;
 }
 
 .rooms__item::after {
