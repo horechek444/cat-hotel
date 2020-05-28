@@ -1,0 +1,11 @@
+@import url(./__cover/toggle__cover.css);
+@import url(./_position/toggle_position_left.css);
+@import url(./_position/toggle_position_right.css);
+
+.toggle {
+    width: 36px;
+    height: 36px;
+    box-shadow: 0px 2px 12px rgba(173, 152, 143, 0.25);
+    border-radius: 50%;
+    cursor: pointer;
+}

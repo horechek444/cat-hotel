@@ -1,8 +1,8 @@
 .rooms__image {
+    display: block;
     position: relative;
     width: 600px;
     height: 404px;
     border-radius: 10px;
-    margin-bottom: 55px;
     z-index: 1;
 }

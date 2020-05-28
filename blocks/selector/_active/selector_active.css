@@ -1,0 +1,8 @@
+.selector_active {
+    display: block;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #FAC663;
+    cursor: default;
+}

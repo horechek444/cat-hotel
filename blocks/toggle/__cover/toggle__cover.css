@@ -1,0 +1,5 @@
+.toggle__cover {
+    display: flex;
+    justify-content: space-between;
+    width: 82px;
+}
