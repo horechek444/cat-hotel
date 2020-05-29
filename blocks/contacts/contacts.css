@@ -1,0 +1,20 @@
+@import url(./__cover/contacts__cover.css);
+@import url(./__title/contacts__title.css);
+@import url(./__list/contacts__list.css);
+@import url(./__item/contacts__item.css);
+@import url(./__name/contacts__name.css);
+@import url(./__text/contacts__text.css);
+@import url(./__link/contacts__link.css);
+@import url(./__social/contacts__social.css);
+@import url(./__cards-cover/contacts__cards-cover.css);
+@import url(./__card/contacts__card.css);
+@import url(./__yandex-card/contacts__yandex-card.css);
+@import url(./);
+@import url(./);
+
+.contacts {
+    display: flex;
+    max-width: 1366px;
+    margin: 0 auto;
+    max-height: 580px;
+}

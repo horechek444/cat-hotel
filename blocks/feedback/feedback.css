@@ -13,7 +13,7 @@
     flex-direction: column;
     position: relative;
     max-width: 1366px;
-    padding: 219px 0;
+    padding: 140px 0 219px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -21,8 +21,8 @@
 .feedback::after {
     position: absolute;
     content: url(../../images/paw-2.svg);
-    top: -10px;
-    right: -10px;
+    top: -30px;
+    right: 0;
     width: 312px;
     height: 267px;
     z-index: 0;

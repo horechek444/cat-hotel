@@ -1,0 +1,7 @@
+.contacts__yandex-card {
+    position: relative;
+    border: none;
+    width: 798px;
+    height: 580px;
+    z-index: 3;
+}

@@ -1,0 +1,9 @@
+.contacts__cover {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAC663;
+    min-width: calc(568px - 198px - 107px);
+    padding: 70px 107px 70px 198px;
+    box-sizing: border-box;
+    max-height: 580px;
+}
