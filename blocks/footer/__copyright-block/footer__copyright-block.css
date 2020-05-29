@@ -1,0 +1,10 @@
+.footer__copyright-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 198px;
+    background-color: #FFFEFD;
+    max-width: calc(1366px - 198px - 198px);
+    min-height: 49px;
+    border-top: 1px solid #EFEFEF;
+}

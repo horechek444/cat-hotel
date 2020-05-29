@@ -1,0 +1,11 @@
+@import url(./__navigation-block/footer__navigation-block.css);
+@import url(./__copyright-block/footer__copyright-block.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__confident/footer__confident.css);
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1366px;
+    margin: 0 auto;
+}
