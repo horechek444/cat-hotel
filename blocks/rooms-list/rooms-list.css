@@ -1,0 +1,14 @@
+@import url(./__row/rooms-list__row.css);
+@import url(./__title/rooms-list__title.css);
+@import url(./__filter/rooms-list__filter.css);
+@import url(./__text/rooms-list__text.css);
+@import url(./);
+@import url(./);
+@import url(./);
+
+.rooms-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    margin: 0 auto;
+}

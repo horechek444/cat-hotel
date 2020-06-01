@@ -1,0 +1,7 @@
+.rooms-list__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 60px 0 53px 0;
+}
