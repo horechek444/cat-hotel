@@ -8,7 +8,7 @@
 @import url(./__button/banner__button.css);
 
 .banner {
-    max-width: calc(1366px - 98px - 98px);
+    max-width: calc(1366px - 140px - 140px);
     margin: 0 auto;
     padding: 98px 140px;
 }
