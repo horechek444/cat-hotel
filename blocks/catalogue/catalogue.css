@@ -1,0 +1,14 @@
+@import url(./__cards/catalogue__cards.css);
+@import url(./__item/catalogue__item.css);
+@import url(./__image/catalogue__image.css);
+@import url(./__title/catalogue__title.css);
+@import url(./__list/catalogue__list.css);
+@import url(./__part/catalogue__part.css);
+@import url(./__text/catalogue__text.css);
+@import url(./__text/_size/catalogue__text_size_big.css);
+@import url(./__button/catalogue__button.css);
+@import url(./);
+
+.catalogue {
+    min-width: 870px;
+}

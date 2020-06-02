@@ -1,8 +1,20 @@
 .rooms-list__filter {
+    position: relative;
     box-shadow: 0px 2px 12px rgba(173, 152, 143, 0.18);
     border-radius: 25px;
-    min-width: 174px;
+    min-width: calc(174px - 60px - 35px);
     margin: 0;
-    padding: 13px 0 13px 60px;
+    padding: 13px 60px 13px 35px;
     list-style: none;
+}
+
+.rooms-list__filter::after {
+    position: absolute;
+    content: url(../../../images/arrow.svg);
+    width: 12px;
+    height: 6px;
+    top: 30px;
+    right: 25px;
+    transform: rotate(-180deg);
+    cursor: pointer;
 }

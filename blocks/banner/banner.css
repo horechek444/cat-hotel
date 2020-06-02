@@ -1,0 +1,14 @@
+
+
+@import url(./__background/banner__background.css);
+@import url(./__title/banner__title.css);
+@import url(./__title/_size/banner__title_size_small.css);
+@import url(./__title/_size/banner__title_size_big.css);
+@import url(./__subtitle/banner__subtitle.css);
+@import url(./__button/banner__button.css);
+
+.banner {
+    max-width: calc(1366px - 98px - 98px);
+    margin: 0 auto;
+    padding: 98px 140px;
+}

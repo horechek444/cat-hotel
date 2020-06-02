@@ -1,0 +1,4 @@
+.filter__cover {
+    display: flex;
+    justify-content: space-between;
+}

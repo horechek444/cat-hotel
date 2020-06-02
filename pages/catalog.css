@@ -3,9 +3,9 @@
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/rooms-list/rooms-list.css);
-@import url(../blocks/);
-@import url(../blocks/);
-@import url(../blocks/);
+@import url(../blocks/filter/filter.css);
+@import url(../blocks/catalogue/catalogue.css);
+@import url(../blocks/banner/banner.css);
 @import url(../blocks/);
 @import url(../blocks/);
 @import url(../blocks/);

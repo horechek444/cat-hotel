@@ -36,24 +36,16 @@
                 <h1 class="rooms-list__title">Наши номера</h1>
                 <ul class="rooms-list__filter">
                     <li class="rooms-list__item">
-                        <a href="#" class="rooms-list__link">
-                            <span class="rooms-list__text">По площади</span>
-                        </a>
+                        <a href="#" class="rooms-list__link">По площади</a>
                     </li>
                     <li class="rooms-list__item disabled">
-                        <a href="#" class="rooms-list__link">
-                            <span class="rooms-list__text">По площади</span>
-                        </a>
+                        <a href="#" class="rooms-list__link">По площади</a>
                     </li>
                     <li class="rooms-list__item disabled">
-                        <a href="#" class="rooms-list__link">
-                            <span class="rooms-list__text">По цене</span>
-                        </a>
+                        <a href="#" class="rooms-list__link">По цене</a>
                     </li>
                     <li class="rooms-list__item disabled">
-                        <a href="#" class="rooms-list__link">
-                            <span class="rooms-list__text">По цене</span>
-                        </a>
+                        <a href="#" class="rooms-list__link">По цене</a>
                     </li>
                 </ul>
             </div>
@@ -61,234 +53,243 @@
                 <div class="filter">
                     <div class="filter__item">
                         <h3 class="filter__title">Цена за сутки, &#8381;</h3>
-                        <input type="text" name="min-price" placeholder="от 0">
-                        <input type="text" name="max-price" placeholder="до 600">
+                        <div class="filter__cover">
+                            <input class="filter__price" type="text" name="min-price" placeholder="от 100">
+                            <input class="filter__price" type="text" name="max-price" placeholder="до 600">
+                        </div>
                     </div>
                     <div class="filter__item">
                         <h3 class="filter__title">Площадь</h3>
-                        <label>
-                            <input type="checkbox" checked>
-                            0,63 м2
-                        </label>
-                        <label>
-                            <input type="checkbox" checked>
-                            0,90 м2
-                        </label>
-                        <label>
-                            <input type="checkbox" checked>
-                            1,13 м2
-                        </label>
-                        <label>
-                            <input type="checkbox" checked>
-                            1,56 м2
-                        </label>
-                        <label>
-                            <input type="checkbox" checked>
-                            2,56 м2
-                        </label>
-                        <label>
-                            <input type="checkbox" checked>
-                            2,88 м2
-                        </label>
+                        <input class="filter__checkbox" type="checkbox" id="0.63" checked>
+                        <label class="filter__label" for="0.63">0,63 м2</label>
+                        <input class="filter__checkbox" type="checkbox" id="0.90" checked>
+                        <label class="filter__label" for="0.90">0,90 м2</label>
+                        <input class="filter__checkbox" type="checkbox" id="1.13" checked>
+                        <label class="filter__label" for="1.13">1,13 м2</label>
+                        <input class="filter__checkbox" type="checkbox" id="1.56" checked>
+                        <label class="filter__label" for="1.56">1,56 м2</label>
+                        <input class="filter__checkbox" type="checkbox" id="2.56" checked>
+                        <label class="filter__label" for="2.56">2,56 м2</label>
+                        <input class="filter__checkbox" type="checkbox" id="2.88" checked>
+                        <label class="filter__label" for="2.88">2,88 м2</label>
                     </div>
                     <div class="filter__item">
                         <h3 class="filter__title">Оснащение номера</h3>
-                        <label>
-                            <input type="checkbox" checked>
-                            Пустой номер
-                        </label>
-                        <label>
-                            <input type="checkbox" checked>
-                            Лежак
-                        </label>
-                        <label>
-                            <input type="checkbox" checked>
-                            Когтеточка
-                        </label>
-                        <label>
-                            <input type="checkbox" checked>
-                            Игровой-комплекс
-                        </label>
-                        <label>
-                            <input type="checkbox" checked>
-                            Домик
-                        </label>
+                        <input class="filter__checkbox" type="checkbox" id="empty" checked>
+                        <label class="filter__label" for="empty">Пустой номер</label>
+                        <input class="filter__checkbox" type="checkbox" id="sunbed" checked>
+                        <label class="filter__label" for="sunbed">Лежак</label>
+                        <input class="filter__checkbox" type="checkbox" id="scratching_post" checked>
+                        <label class="filter__label" for="scratching_post">Когтеточка</label>
+                        <input class="filter__checkbox" type="checkbox" id="game_complex" checked>
+                        <label class="filter__label" for="game_complex">Игровой-комплекс</label>
+                        <input class="filter__checkbox" type="checkbox" id="hut" checked>
+                        <label class="filter__label" for="hut">Домик</label>
                     </div>
-                    <input class="button filter__button filter__button_type_submit" type="submit" value="Применить">
-                    <input class="button filter__button_type_reset" type="reset" value="Сбросить фильтр">
+                    <div class="filter__button-cover">
+                        <input class="button filter__button filter__button_type_submit" type="submit" value="Применить">
+                        <input class="button filter__button filter__button_type_reset" type="reset" value="Сбросить фильтр">
+                    </div>
                 </div>
-                <div class="catalog">
-                    <ul class="catalog__cards">
-                        <li class="catalog__item">
-                            <img class="catalog__image" src="./images/catalog_1.jpg" alt="Серый кот на лежаке">
-                            <h4 class="catalog__title">Эконом</h4>
-                            <ul class="catalog__list">
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                <div class="catalogue">
+                    <ul class="catalogue__cards">
+                        <li class="catalogue__item">
+                            <img class="catalogue__image" src="./images/catalog_1.jpg" alt="Серый кот на лежаке">
+                            <h4 class="catalogue__title">Эконом</h4>
+                            <ul class="catalogue__list">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Размеры (ШхГхВ) - 90х70х180 см
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Площадь - 0,63 м2
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Оснащение номера
                                     </span>
+                                    <span class="catalogue__equipment"></span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Цена за сутки: 
-                                        <span class="catalog__text_size_big">100₽</span>
+                                        <span class="catalogue__text_size_big">100₽</span>
                                     </span>
                                 </li>
                             </ul>
-                            <button class="button catalog__button">Забронировать</button>
+                            <button class="button catalogue__button">Забронировать</button>
                         </li>
-                        <li class="catalog__item">
-                            <img class="catalog__image" src="./images/catalog_2.jpg" alt="Трехцветная кошка на игровом комплексе">
-                            <h4 class="catalog__title">Эконом плюс</h4>
-                            <ul class="catalog__list">
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                        <li class="catalogue__item">
+                            <img class="catalogue__image" src="./images/catalog_2.jpg" alt="Трехцветная кошка на игровом комплексе">
+                            <h4 class="catalogue__title">Эконом плюс</h4>
+                            <ul class="catalogue__list">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Размеры (ШхГхВ) - 90х100х180 см
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Площадь - 0,90 м2
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Оснащение номера
                                     </span>
+                                    <span></span>
+                                    <span></span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Цена за сутки: 
-                                        <span class="catalog__text_size_big">200₽</span>
+                                        <span class="catalogue__text_size_big">200₽</span>
                                     </span>
                                 </li>
                             </ul>
-                            <button class="button catalog__button">Забронировать</button>
+                            <button class="button catalogue__button">Забронировать</button>
                         </li>
-                        <li class="catalog__item">
-                            <img class="catalog__image" src="./images/catalog_3.jpg" alt="Серый кот на игровом комплексе">
-                            <h4 class="catalog__title">Комфорт</h4>
-                            <ul class="catalog__list">
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                        <li class="catalogue__item">
+                            <img class="catalogue__image" src="./images/catalog_3.jpg" alt="Серый кот на игровом комплексе">
+                            <h4 class="catalogue__title">Комфорт</h4>
+                            <ul class="catalogue__list">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Размеры (ШхГхВ) - 100х125х180 см
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Площадь - 1,13 м2
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Оснащение номера
                                     </span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Цена за сутки: 
-                                        <span class="catalog__text_size_big">250₽</span>
+                                        <span class="catalogue__text_size_big">250₽</span>
                                     </span>
                                 </li>
                             </ul>
-                            <button class="button catalog__button">Забронировать</button>
+                            <button class="button catalogue__button">Забронировать</button>
                         </li>
-                        <li class="catalog__item">
-                            <img class="catalog__image" src="./images/catalog_4.jpg" alt="Камышовый кот в корзине">
-                            <h4 class="catalog__title">Сьют</h4>
-                            <ul class="catalog__list">
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                        <li class="catalogue__item">
+                            <img class="catalogue__image" src="./images/catalog_4.jpg" alt="Камышовый кот в корзине">
+                            <h4 class="catalogue__title">Сьют</h4>
+                            <ul class="catalogue__list">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Размеры (ШхГхВ) - 125х125х180 см
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Площадь - 1,56 м2
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Оснащение номера
                                     </span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Цена за сутки: 
-                                        <span class="catalog__text_size_big">350₽</span>
+                                        <span class="catalogue__text_size_big">350₽</span>
                                     </span>
                                 </li>
                             </ul>
-                            <button class="button catalog__button">Забронировать</button>
+                            <button class="button catalogue__button">Забронировать</button>
                         </li>
-                        <li class="catalog__item">
-                            <img class="catalog__image" src="./images/catalog_5.jpg" alt="Рыжий кот спит на лежаке">
-                            <h4 class="catalog__title">Люкс</h4>
-                            <ul class="catalog__list">
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                        <li class="catalogue__item">
+                            <img class="catalogue__image" src="./images/catalog_5.jpg" alt="Рыжий кот спит на лежаке">
+                            <h4 class="catalogue__title">Люкс</h4>
+                            <ul class="catalogue__list">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Размеры (ШхГхВ) - 160х160х180 см
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Площадь - 2,56 м2
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Оснащение номера
                                     </span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Цена за сутки: 
-                                        <span class="catalog__text_size_big">500₽</span>
+                                        <span class="catalogue__text_size_big">500₽</span>
                                     </span>
                                 </li>
                             </ul>
-                            <button class="button catalog__button">Забронировать</button>
+                            <button class="button catalogue__button">Забронировать</button>
                         </li>
-                        <li class="catalog__item">
-                            <img class="catalog__image" src="./images/catalog_6.jpg" alt="Белый кот играет с игровым комплексом">
-                            <h4 class="catalog__title">Супер-люкс</h4>
-                            <ul class="catalog__list">
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                        <li class="catalogue__item">
+                            <img class="catalogue__image" src="./images/catalog_6.jpg" alt="Белый кот играет с игровым комплексом">
+                            <h4 class="catalogue__title">Супер-люкс</h4>
+                            <ul class="catalogue__list">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Размеры (ШхГхВ) - 180х160х180 см
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Площадь - 2,88 м2
                                     </span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Оснащение номера
                                     </span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
                                 </li>
-                                <li class="catalog__item">
-                                    <span class="catalog__text">
+                                <li class="catalogue__part">
+                                    <span class="catalogue__text">
                                         Цена за сутки: 
-                                        <span class="catalog__text_size_big">600₽</span>
+                                        <span class="catalogue__text_size_big">600₽</span>
                                     </span>
                                 </li>
                             </ul>
-                            <button class="button catalog__button">Забронировать</button>
+                            <button class="button catalogue__button">Забронировать</button>
                         </li>
                     </ul>
                 </div>
+            </div>
+        </section>
+
+        <section class="banner">
+            <div class="banner__background">
+                <h2 class="banner__title banner__title_size_small">Каждый 7-й день</h2>
+                <h2 class="banner__title banner__title_size_big">бесплатно!</h2>
+                <p class="banner__subtitle">Акция действует при размещении<br>
+                в номерах “Люкс” и “Супер-Люкс”</p>
+                <button class="button banner__button">Забронировать</button>
             </div>
         </section>
 

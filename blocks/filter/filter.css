@@ -1,0 +1,14 @@
+@import url(./__item/filter__item.css);
+@import url(./__title/filter__title.css);
+@import url(./__cover/filter__cover.css);
+@import url(./__price/filter__price.css);
+@import url(./__label/filter__label.css);
+@import url(./__checkbox/filter__checkbox.css);
+@import url(./__button-cover/filter__button-cover.css);
+@import url(./__button/filter__button.css);
+@import url(./__button/_type/filter__button_type_submit.css);
+@import url(./__button/_type/filter__button_type_reset.css);
+
+.filter {
+    min-width: 210px;
+}
