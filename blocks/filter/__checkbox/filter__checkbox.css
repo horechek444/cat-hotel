@@ -20,6 +20,7 @@
 }
 
 .filter__checkbox:checked+label::before {
+    content: '';
     background-image: url(../../../images/checkbox.svg);
     background-repeat: no-repeat;
     background-position: center;

@@ -7,7 +7,6 @@
 @import url(./__text/catalogue__text.css);
 @import url(./__text/_size/catalogue__text_size_big.css);
 @import url(./__button/catalogue__button.css);
-@import url(./);
 
 .catalogue {
     min-width: 870px;

@@ -1,0 +1,11 @@
+.icon__house {
+    width: 16px;
+    height: 16px;
+}
+
+.icon__house:hover + .icon__help {
+    display: block;
+    position: absolute;
+    top: -55px;
+    left: 171px;
+}

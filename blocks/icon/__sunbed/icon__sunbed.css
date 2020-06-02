@@ -1,0 +1,11 @@
+.icon__sunbed {
+    width: 16px;
+    height: 12px;
+}
+
+.icon__sunbed:hover + .icon__help {
+    display: block;
+    position: absolute;
+    top: -55px;
+    left: 100px;
+}

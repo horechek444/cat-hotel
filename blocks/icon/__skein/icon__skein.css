@@ -1,0 +1,11 @@
+.icon__skein {
+    width: 16px;
+    height: 16px;
+}
+
+.icon__skein:hover + .icon__help {
+    display: block;
+    position: absolute;
+    top: -55px;
+    left: 100px;
+}
