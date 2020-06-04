@@ -1,0 +1,10 @@
+.icon_content_skein {
+    position: relative;
+    background-image: url(../../../images/skein.svg);
+    width: 16px;
+    height: 16px;
+}
+
+.icon.icon_content_skein > .icon__help {
+    left: -90px;
+}

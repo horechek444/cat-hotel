@@ -1,3 +1,4 @@
 .catalogue__part {
-    position: relative;
+    display: flex;
+    align-items: baseline;
 }
