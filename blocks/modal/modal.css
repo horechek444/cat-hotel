@@ -1,0 +1,37 @@
+@import url(./__close/modal__close.css);
+@import url(./__title/modal__title.css);
+@import url(./__form/modal__form.css);
+@import url(./__item/modal__item.css);
+@import url(./__cover/modal__cover.css);
+@import url(./__text/modal__text.css);
+@import url(./__date/modal__date.css);
+@import url(./__button/modal__button.css);
+@import url(./__show/modal__show.css);
+
+.modal {
+    position: fixed;
+    display: none;
+    top: 15%;
+    left: calc(50% - (570px/2));
+    max-width: calc(570px - 70px * 2);
+    background: #FFFEFD;
+    box-shadow: 0px 0px 25px rgba(153, 153, 153, 0.25);
+    border-radius: 10px;
+    padding: 70px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.modal::after {
+    position: absolute;
+    content: url(../../images/modal_paw.svg);
+    top: -50px;
+    left: -45px;
+    width: 367px;
+    height: 314px;
+    z-index: 0;
+}
+
+.modal__show {
+    display: block;
+}

@@ -7,20 +7,20 @@
     line-height: 1.21;
 }
 
-::-webkit-input-placeholder {
+.filter__price::-webkit-input-placeholder {
     color: #1A212F;
 }
 
-:-ms-input-placeholder {
+.filter__price:-ms-input-placeholder {
     color: #1A212F;
 }
 
-::-moz-placeholder {
+.filter__price::-moz-placeholder {
     color: #1A212F;
     opacity: 1;
 }
 
-:-moz-placeholder {
+.filter__price:-moz-placeholder {
     color: #1A212F;
     opacity: 1;
 }
