@@ -1,0 +1,7 @@
+.position__icon {
+    margin-left: 4px;
+}
+
+.position__icon:first-of-type {
+    margin-left: 10px;
+}

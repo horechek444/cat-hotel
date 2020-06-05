@@ -14,11 +14,7 @@
 @import url(./_content/icon_content_skein.css);
 
 .icon {
-    margin-left: 4px;
-}
-
-.icon:first-of-type {
-    margin-left: 10px;
+    position: relative;
 }
 
 .icon > .icon__help {
