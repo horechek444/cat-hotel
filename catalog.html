@@ -35,16 +35,16 @@
             <div class="rooms-list__row">
                 <h1 class="rooms-list__title">Наши номера</h1>
                 <ul class="rooms-list__filter">
+                    <li class="rooms-list__item rooms-list__item_active">
+                        <a href="#" class="rooms-list__link">По площади</a>
+                    </li>
                     <li class="rooms-list__item">
                         <a href="#" class="rooms-list__link">По площади</a>
                     </li>
-                    <li class="rooms-list__item disabled">
-                        <a href="#" class="rooms-list__link">По площади</a>
-                    </li>
-                    <li class="rooms-list__item disabled">
+                    <li class="rooms-list__item">
                         <a href="#" class="rooms-list__link">По цене</a>
                     </li>
-                    <li class="rooms-list__item disabled">
+                    <li class="rooms-list__item">
                         <a href="#" class="rooms-list__link">По цене</a>
                     </li>
                 </ul>
@@ -454,7 +454,7 @@
     </footer>
 
     <section class="modal">
-        <button class="modal__close" type="button"></button>
+        <button class="modal__close close" type="button"></button>
         <h2 class="modal__title">Забронировать номер</h2>
         <form class="modal__form" action="post">
             <input class="modal__item" type="text" placeholder="Ваше имя">
@@ -474,12 +474,12 @@
         </form>
     </section>
 
-    <!-- <section class="thanks">
-        <button class="thanks__close" type="button"></button>
+    <section class="thanks">
+        <button class="thanks__close close" type="button"></button>
         <h2 class="thanks__title">Спасибо за заявку!</h2>
         <p class="thanks__subtitle">Мы свяжемся с вами в ближайшее время</p>
         <button class="button thanks__button" type="button">Ок</button>
-    </section> -->
+    </section>
     <script src="./scripts/catalog.js"></script>
 </body>
 </html>

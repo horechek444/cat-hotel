@@ -11,7 +11,7 @@
 .modal {
     position: fixed;
     display: none;
-    top: 15%;
+    top: 10%;
     left: calc(50% - (570px/2));
     max-width: calc(570px - 70px * 2);
     background: #FFFEFD;
@@ -30,8 +30,4 @@
     width: 367px;
     height: 314px;
     z-index: 0;
-}
-
-.modal__show {
-    display: block;
 }

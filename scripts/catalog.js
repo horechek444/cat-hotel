@@ -4,40 +4,69 @@ if (document.querySelectorAll(".catalogue__button")) {
     let catalogButton = document.querySelectorAll(".catalogue__button");
     let modalWindow = document.querySelector(".modal");
     let modalClose = modalWindow.querySelector(".modal__close");
-    let modalButton = modalWindow.querySelector(".modal__button");
-    let root = document.querySelector(".root");
+    let bannerButton = document.querySelector(".banner__button");
+    let main = document.querySelector(".content");
+    let header = document.querySelector(".header");
+    let footer = document.querySelector(".footer");
 
     for (let i = 0; i < catalogButton.length; i++) {
         catalogButton[i].addEventListener("click", function (evt) {
             evt.preventDefault();
-            modalWindow.classList.add("modal__show");
+            modalWindow.classList.add("show");
+            main.classList.add("blure");
+            header.classList.add("blure");
+            footer.classList.add("blure");
         });
     }
 
-    modalClose.addEventListener("click", function (evt) {
+    bannerButton.addEventListener("click", function (evt) {
         evt.preventDefault();
-        modalWindow.classList.remove("modal__show");
+        modalWindow.classList.add("show");
+        main.classList.add("blure");
+        header.classList.add("blure");
+        footer.classList.add("blure");
     });
 
-    modalButton.addEventListener("click", function (evt) {
+    modalClose.addEventListener("click", function (evt) {
         evt.preventDefault();
-        modalWindow.classList.remove("modal__show");
+        modalWindow.classList.remove("show");
+        main.classList.remove("blure");
+        header.classList.remove("blure");
+        footer.classList.remove("blure");
     });
 }
 
+/* Окно каталога с благодарностью */
+if (document.querySelector(".modal__button")) {
+    let thanksWindow = document.querySelector(".thanks");
+    let thanksClose = thanksWindow.querySelector(".thanks__close");
+    let thanksButton = thanksWindow.querySelector(".thanks__button");
+    let modalButton = document.querySelector(".modal__button");
+    let main = document.querySelector(".content");
+    let header = document.querySelector(".header");
+    let footer = document.querySelector(".footer");
 
-// if (document.querySelector(".modal__button")) {
-//     let thanksClose = document.querySelector(".thanks");
-//     let thanksClose = thanksWindow.querySelector(".thanks__close");
-//     let modalButton = modalWindow.querySelector(".modal__button");
+    modalButton.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        thanksWindow.classList.add("show");
+        main.classList.add("blure");
+        header.classList.add("blure");
+        footer.classList.add("blure");
+    });
 
-//     modalButton.addEventListener("click", function (evt) {
-//         evt.preventDefault();
-//         modalWindow.classList.add("modal__show");
-//     });
+    thanksClose.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        thanksWindow.classList.remove("show");
+        main.classList.remove("blure");
+        header.classList.remove("blure");
+        footer.classList.remove("blure");
+    });
 
-//     thanksClose.addEventListener("click", function (evt) {
-//         evt.preventDefault();
-//         thanksClose.classList.remove("modal__show");
-//     });
-// }
+    thanksButton.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        thanksWindow.classList.remove("show");
+        main.classList.remove("blure");
+        header.classList.remove("blure");
+        footer.classList.remove("blure");
+    });
+}

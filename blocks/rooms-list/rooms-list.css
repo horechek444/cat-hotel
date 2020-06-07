@@ -1,16 +1,12 @@
 @import url(./__row/rooms-list__row.css);
 @import url(./__title/rooms-list__title.css);
 @import url(./__filter/rooms-list__filter.css);
+@import url(./__filter/_active/rooms-list__filter_active.css);
 @import url(./__link/rooms-list__link.css);
 @import url(./__columns/rooms-list__columns.css);
-@import url(./);
-@import url(./);
-@import url(./);
-@import url(./);
-@import url(./);
-@import url(./);
-@import url(./);
-@import url(./);
+@import url(./__item/rooms-list__item.css);
+@import url(./__item/_active/rooms-list__item_active.css);
+
 
 .rooms-list {
     display: flex;

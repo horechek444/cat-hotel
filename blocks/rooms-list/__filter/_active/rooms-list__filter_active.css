@@ -1,0 +1,23 @@
+.rooms-list__filter_active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin: 0;
+    box-shadow: 0px 2px 12px rgba(173, 152, 143, 0.18);
+    border-radius: 4px;
+    min-width: calc(174px - 60px - 35px);
+    padding: 13px 60px 13px 35px;
+}
+
+.rooms-list__filter_active::after {
+    position: absolute;
+    content: url(../../../../images/filter_active.svg);
+    width: 12px;
+    height: 6px;
+    top: 13px;
+    right: 25px;
+    /* transform: rotate(-180deg); */
+    cursor: pointer;
+    z-index: 2;
+}

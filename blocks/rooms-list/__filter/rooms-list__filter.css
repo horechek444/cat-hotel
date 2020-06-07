@@ -5,7 +5,6 @@
     min-width: calc(174px - 60px - 35px);
     margin: 0;
     padding: 13px 60px 13px 35px;
-    list-style: none;
 }
 
 .rooms-list__filter::after {

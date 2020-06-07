@@ -8,8 +8,9 @@
 @import url(../blocks/icon/icon.css);
 @import url(../blocks/banner/banner.css);
 @import url(../blocks/position/position.css);
+@import url(../blocks/close/close.css);
 @import url(../blocks/modal/modal.css);
-@import url(../blocks/show/show.css);
+@import url(../blocks/thanks/thanks.css);
 @import url(../blocks/selector/selector.css);
 @import url(../blocks/toggle/toggle.css);
 @import url(../blocks/contacts/contacts.css);
@@ -18,3 +19,4 @@
 @import url(../blocks/disabled/disabled.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/blure/blure.css);
+@import url(../blocks/show/show.css);
