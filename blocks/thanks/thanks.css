@@ -6,8 +6,6 @@
 .thanks {
     position: relative;
     display: none;
-    bottom: 10%;
-    left: calc(50% - (570px/2));
     flex-direction: column;
     max-width: calc(570px - 250px);
     padding: 63px 125px 43px;
