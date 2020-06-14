@@ -1,72 +1,29 @@
-"use strict";
+const catalogButton = document.querySelectorAll(".catalogue__button");
+const modalWindow = document.querySelector(".modal");
+const modalClose = modalWindow.querySelector(".modal__close");
+const bannerButton = document.querySelector(".banner__button");
+const thanksWindow = document.querySelector(".thanks");
+const thanksClose = thanksWindow.querySelector(".thanks__close");
+const thanksButton = thanksWindow.querySelector(".thanks__button");
+const modalButton = document.querySelector(".modal__button");
+
 /* Модальное окно каталога */
-if (document.querySelectorAll(".catalogue__button")) {
-    let catalogButton = document.querySelectorAll(".catalogue__button");
-    let modalWindow = document.querySelector(".modal");
-    let modalClose = modalWindow.querySelector(".modal__close");
-    let bannerButton = document.querySelector(".banner__button");
-    let main = document.querySelector(".content");
-    let header = document.querySelector(".header");
-    let footer = document.querySelector(".footer");
+let modalToggle = function(event) {
+    modalWindow.classList.toggle("modal_show");
+}
 
-    for (let i = 0; i < catalogButton.length; i++) {
-        catalogButton[i].addEventListener("click", function (evt) {
-            evt.preventDefault();
-            modalWindow.classList.add("show");
-            main.classList.add("blure");
-            header.classList.add("blure");
-            footer.classList.add("blure");
-        });
-    }
+bannerButton.addEventListener("click", modalToggle);
+modalClose.addEventListener("click", modalToggle);
 
-    bannerButton.addEventListener("click", function (evt) {
-        evt.preventDefault();
-        modalWindow.classList.add("show");
-        main.classList.add("blure");
-        header.classList.add("blure");
-        footer.classList.add("blure");
-    });
-
-    modalClose.addEventListener("click", function (evt) {
-        evt.preventDefault();
-        modalWindow.classList.remove("show");
-        main.classList.remove("blure");
-        header.classList.remove("blure");
-        footer.classList.remove("blure");
-    });
+for (let i = 0; i < catalogButton.length; i++) {
+    catalogButton[i].addEventListener("click", modalToggle);
 }
 
 /* Окно каталога с благодарностью */
-if (document.querySelector(".modal__button")) {
-    let thanksWindow = document.querySelector(".thanks");
-    let thanksClose = thanksWindow.querySelector(".thanks__close");
-    let thanksButton = thanksWindow.querySelector(".thanks__button");
-    let modalButton = document.querySelector(".modal__button");
-    let main = document.querySelector(".content");
-    let header = document.querySelector(".header");
-    let footer = document.querySelector(".footer");
-
-    modalButton.addEventListener("click", function (evt) {
-        evt.preventDefault();
-        thanksWindow.classList.add("show");
-        main.classList.add("blure");
-        header.classList.add("blure");
-        footer.classList.add("blure");
-    });
-
-    thanksClose.addEventListener("click", function (evt) {
-        evt.preventDefault();
-        thanksWindow.classList.remove("show");
-        main.classList.remove("blure");
-        header.classList.remove("blure");
-        footer.classList.remove("blure");
-    });
-
-    thanksButton.addEventListener("click", function (evt) {
-        evt.preventDefault();
-        thanksWindow.classList.remove("show");
-        main.classList.remove("blure");
-        header.classList.remove("blure");
-        footer.classList.remove("blure");
-    });
+let thanksToggle = function(event) {
+    thanksWindow.classList.toggle("thanks_show");
 }
+
+modalButton.addEventListener("click", thanksToggle);
+thanksClose.addEventListener("click", thanksToggle);
+thanksButton.addEventListener("click", thanksToggle);

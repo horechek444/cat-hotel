@@ -1,0 +1,20 @@
+.modal__container {
+    position: relative;
+    max-width: calc(570px - 70px * 2);
+    background: #FFFEFD;
+    box-shadow: 0px 0px 25px rgba(153, 153, 153, 0.25);
+    border-radius: 10px;
+    padding: 70px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.modal__container::after {
+    position: absolute;
+    content: url(../../../images/modal_paw.svg);
+    top: -50px;
+    left: -45px;
+    width: 367px;
+    height: 314px;
+    z-index: 0;
+}

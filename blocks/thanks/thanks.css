@@ -4,7 +4,7 @@
 @import url(./__button/thanks__button.css);
 
 .thanks {
-    position: fixed;
+    position: relative;
     display: none;
     bottom: 10%;
     left: calc(50% - (570px/2));

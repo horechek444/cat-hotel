@@ -18,5 +18,5 @@
 @import url(../blocks/link-transform/link-transform.css);
 @import url(../blocks/disabled/disabled.css);
 @import url(../blocks/root/root.css);
-@import url(../blocks/blure/blure.css);
-@import url(../blocks/show/show.css);
+@import url(../blocks/modal/_show/modal_show.css);
+@import url(../blocks/thanks/_show/thanks_show.css);
