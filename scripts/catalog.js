@@ -1,4 +1,4 @@
-const catalogButton = document.querySelectorAll(".catalogue__button");
+const catalogButton = document.querySelectorAll(".assortment__button");
 const modalWindow = document.querySelector(".modal");
 const modalClose = modalWindow.querySelector(".modal__close");
 const bannerButton = document.querySelector(".banner__button");
@@ -14,6 +14,8 @@ let modalToggle = function(event) {
 
 bannerButton.addEventListener("click", modalToggle);
 modalClose.addEventListener("click", modalToggle);
+thanksClose.addEventListener("click", modalToggle);
+thanksButton.addEventListener("click", modalToggle);
 
 for (let i = 0; i < catalogButton.length; i++) {
     catalogButton[i].addEventListener("click", modalToggle);
@@ -27,3 +29,4 @@ let thanksToggle = function(event) {
 modalButton.addEventListener("click", thanksToggle);
 thanksClose.addEventListener("click", thanksToggle);
 thanksButton.addEventListener("click", thanksToggle);
+modalClose.addEventListener("click", thanksToggle);

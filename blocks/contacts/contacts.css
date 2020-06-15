@@ -6,6 +6,7 @@
 @import url(./__text/contacts__text.css);
 @import url(./__link/contacts__link.css);
 @import url(./__social/contacts__social.css);
+@import url(./__image/contacts__image.css);
 @import url(./__cards-cover/contacts__cards-cover.css);
 @import url(./__card/contacts__card.css);
 @import url(./__yandex-card/contacts__yandex-card.css);

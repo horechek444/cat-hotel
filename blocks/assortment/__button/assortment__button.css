@@ -1,4 +1,4 @@
-.catalogue__button {
+.assortment__button {
     position: relative;
     min-width: calc(230px - 56px - 65px);
     padding: 0 65px 0 56px;
@@ -11,7 +11,7 @@
     line-height: 1.21;
 }
 
-.catalogue__button::after {
+.assortment__button::after {
     position: absolute;
     content: url(../../../images/button_paw_white.svg);
     top: 7px;
