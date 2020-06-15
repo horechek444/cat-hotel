@@ -3,7 +3,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 1.19;
-    margin: 0 0 20px calc(8px + 13px);
+    margin: 0 0 15px calc(8px + 13px);
 }
 
 .rooms__property:last-of-type {
@@ -19,4 +19,23 @@
     height: 13px;
     border-radius: 50%;
     background-color: #FAC663;
+}
+
+@media screen and (max-width: 1365px){
+    .rooms__property {
+        font-size: 15px;
+        line-height: 1.2;
+        margin: 0 0 10px calc(8px + 11px);
+    }
+    
+    .rooms__property:last-of-type {
+        margin-bottom: 30px;
+    }
+    
+    .rooms__property::before {
+        top: 2px;
+        left: -21px;
+        width: 11px;
+        height: 11px;
+    }
 }
