@@ -18,3 +18,9 @@
     margin: 0 auto;
     max-width: 1366px;
 }
+
+@media screen and (max-width: 1365px){
+    .rooms {
+        min-width: 768px;
+    }
+}

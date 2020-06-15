@@ -1,23 +1,47 @@
 @import url(./__title/advantages__title.css);
 
 .advantages {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    max-width: calc(1366px - 98px - 98px);
+    max-width: calc(1366px - 98px * 2);
     background-color: #ffffff;
-    padding: 140px 98px 140px;
+    padding: 140px 98px;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .advantages::after {
     position: absolute;
-    content: url(../../images/paw.svg);
-    top: -30px;
-    right: -10px;
-    width: 367px;
-    height: 314px;
+    content: '';
+    background-image: url('../../images/paw.svg');
+    background-size: cover;
+    background-position: center;
+    top: -25px;
+    right: -110px;
+    width: 456px;
+    height: 425px;
     z-index: 0;
 }
+
+@media screen and (max-width: 1365px){
+    .advantages {
+        min-width: calc(768px - 45px * 2);
+        padding: 120px 45px;
+    }
+
+    .advantages::after {
+        top: -10px;
+        right: -130px;
+        width: 400px;
+        height: 349px;
+    }
+}
+
+/* @media screen and (max-width: 768px){
+    .page__cover {
+        min-width: 320px;
+    }
+} */

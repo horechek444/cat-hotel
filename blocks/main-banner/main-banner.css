@@ -9,3 +9,16 @@
     max-width: 1366px;
     min-height: 504px;
 }
+
+@media screen and (max-width: 1000px){
+    .main-banner {
+        max-width: 768px;
+        min-height: 868px;
+    }
+}
+
+/* @media screen and (max-width: 768px){
+    .page__cover {
+        min-width: 320px;
+    }
+} */

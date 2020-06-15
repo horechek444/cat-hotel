@@ -1,0 +1,21 @@
+.page__cover {
+    position: relative;
+    min-width: 320px;
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* @media screen and (max-width: 1365px){
+    .page__cover {
+        min-width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page__cover {
+        min-width: 320px;
+    }
+} */

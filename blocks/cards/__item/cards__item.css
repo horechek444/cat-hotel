@@ -8,3 +8,13 @@
     padding: 30px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1365px){
+    .cards__item {
+        width: 100%;
+        max-width: 100%;
+        z-index: 1;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+}

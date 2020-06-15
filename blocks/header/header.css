@@ -2,18 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 98px;
-    background-color: #FFFEFD;
-    margin: 0 auto;
-    max-width: calc(1366px - 98px * 2);
-    min-width: 769px;
     min-height: 76px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 320px){
     .header {
-        padding: 0 45px;
-        max-width: calc(768px - 45px * 2);
-        min-width: 321px
+        min-height: 62px;
     }
 }

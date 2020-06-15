@@ -6,6 +6,4 @@
 .footer {
     display: flex;
     flex-direction: column;
-    max-width: 1366px;
-    margin: 0 auto;
 }

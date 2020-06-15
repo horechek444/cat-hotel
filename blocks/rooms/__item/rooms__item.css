@@ -8,10 +8,28 @@
 
 .rooms__item::after {
     position: absolute;
-    content: url(../../../images/fish.svg);
+    content: '';
+    background-image: url('../../../images/fish.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     top: 10px;
     left: 0;
     width: 484px;
     height: 151px;
     z-index: 0;
+}
+
+@media screen and (max-width: 1365px){
+    .rooms__item {
+        padding: 0 45px 72px;
+    }
+    
+    .rooms__item::after {
+        top: 50px;
+        left: 0;
+        width: 340px;
+        height: 106px;
+        z-index: 0;
+    }
 }

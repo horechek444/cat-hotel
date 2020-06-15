@@ -6,3 +6,10 @@
     border-radius: 10px;
     z-index: 1;
 }
+
+@media screen and (max-width: 1365px){
+    .rooms__image {
+        width: 442px;
+        height: 326px;
+    }
+}
