@@ -1,8 +1,9 @@
 @import url(./__list/feedback__list.css);
 @import url(./__item/feedback__item.css);
 @import url(./__text/feedback__text.css);
-@import url(./__name/feedback__name.css);
-@import url(./__date/feedback__date.css);
+@import url(./__data/feedback__data.css);
+@import url(./__data/_type/feedback__data_type_name.css);
+@import url(./__data/_type/feedback__data_type_date.css);
 @import url(./__userdata/feedback__userdata.css);
 @import url(./__title/feedback__title.css);
 @import url(./__selector/feedback__selector.css);
@@ -20,10 +21,25 @@
 
 .feedback::after {
     position: absolute;
-    content: url(../../images/paw-2.svg);
+    content: '';
+    background-image: url('../../images/paw-2.svg');
+    background-size: cover;
     top: -30px;
-    right: 0;
-    width: 312px;
-    height: 267px;
+    right: -110px;
+    width: 456px;
+    height: 425px;
     z-index: 0;
+}
+
+@media screen and (max-width: 1365px){
+    .feedback {
+        min-width: 768px;
+        padding: 108px 0 182px;
+    }
+
+    .feedback::after {
+        right: -75px;
+        width: 400px;
+        height: 349px;
+    }
 }

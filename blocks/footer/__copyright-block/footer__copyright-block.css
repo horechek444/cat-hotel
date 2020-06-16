@@ -8,3 +8,10 @@
     min-height: 49px;
     border-top: 1px solid #EFEFEF;
 }
+
+@media screen and (max-width: 1365px){
+    .footer__copyright-block {
+        padding: 0 45px;
+        width: calc(100% - 45px * 2);
+    }
+}

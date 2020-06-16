@@ -3,3 +3,9 @@
     line-height: 1.4;
     font-weight: 400;
 }
+
+@media screen and (max-width: 1365px){
+    .feedback__text {
+        font-size: 15px;
+    }
+}

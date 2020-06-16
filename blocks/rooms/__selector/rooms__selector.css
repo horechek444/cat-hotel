@@ -3,3 +3,15 @@
     bottom: 12px;
     left: 653px;
 }
+
+@media screen and (max-width: 1365px){
+    .rooms__selector {
+        left: 505px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .rooms__selector {
+        left: 354px;
+    }
+}

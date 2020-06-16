@@ -21,7 +21,7 @@
     background-color: #FAC663;
 }
 
-@media screen and (max-width: 1365px){
+@media screen and (max-width: 1130px){
     .rooms__property {
         font-size: 15px;
         line-height: 1.2;

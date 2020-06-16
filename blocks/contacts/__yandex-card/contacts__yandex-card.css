@@ -5,3 +5,17 @@
     height: 580px;
     z-index: 3;
 }
+
+@media screen and (max-width: 1200px){
+    .contacts__yandex-card {
+        width: 600px;
+        height: 522px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .contacts__yandex-card {
+        width: 399px;
+        height: 522px;
+    }
+}

@@ -23,3 +23,17 @@
     width: 27px;
     height: 56px;
 }
+
+@media screen and (max-width: 1365px){
+    .feedback__item {
+        padding: 35px 33px 35px 70px;
+    }
+    
+    .feedback__item:last-of-type {
+        margin-right: 0;
+    }
+
+    .feedback__item:nth-last-of-type(3) {
+        display: none;
+    }
+}

@@ -1,6 +1,6 @@
 .contacts__card {
     position: absolute;
-    background-image: url(../../../images/card.png);
+    background-image: url('../../../images/card.png');
     width: 798px;
     height: 580px;
     z-index: 1;
@@ -8,10 +8,31 @@
 
 .contacts__card::before {
     position: absolute;
-    content: url(../../../images/card_cat.svg);
+    content: url('../../../images/card_cat.svg');
     top: 235px;
     left: 250px;
     width: 32px;
     height: 58px;
     z-index: 2;
+}
+
+@media screen and (max-width: 1200px){
+    .contacts__card {
+        width: 600px;
+        height: 522px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .contacts__card {
+        background-size: cover;
+        background-position: 20% 80%;
+        width: 399px;
+        height: 522px;
+    }
+    
+    .contacts__card::before {
+        top: 208px;
+        left: 155px;
+    }
 }

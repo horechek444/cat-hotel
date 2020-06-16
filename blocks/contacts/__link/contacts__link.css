@@ -5,3 +5,9 @@
     line-height: 1.19;
     font-weight: normal;
 }
+
+@media screen and (max-width: 1000px){
+    .contacts__link {
+        font-size: 15px;
+    }
+}

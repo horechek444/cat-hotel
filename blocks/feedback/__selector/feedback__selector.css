@@ -3,3 +3,15 @@
     bottom: 152px;
     left: 653px;
 }
+
+@media screen and (max-width: 1365px){
+    .feedback__selector {
+        left: 505px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .feedback__selector {
+        left: 354px;
+    }
+}

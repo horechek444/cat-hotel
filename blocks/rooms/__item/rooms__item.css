@@ -22,6 +22,12 @@
 
 @media screen and (max-width: 1365px){
     .rooms__item {
+        padding: 0 15% 77px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .rooms__item {
         padding: 0 45px 72px;
     }
     

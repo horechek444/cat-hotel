@@ -14,6 +14,13 @@
 .contacts {
     display: flex;
     max-width: 1366px;
-    margin: 0 auto;
     max-height: 580px;
+    margin: 0 auto;
 }
+
+@media screen and (max-width: 1000px){
+    .contacts {
+        min-width: 768px;
+        max-height: 522px;
+    }
+} 

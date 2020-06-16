@@ -5,3 +5,15 @@
     padding: 0 0 0 98px;
     max-width: 100%;
 }
+    
+@media screen and (max-width: 1365px){
+    .feedback__list {
+        padding: 0 0 0 70px;
+    }
+}    
+
+@media screen and (max-width: 900px){
+    .feedback__list {
+        padding: 0 0 0 45px;
+    }
+}    

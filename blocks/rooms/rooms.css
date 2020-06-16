@@ -19,7 +19,7 @@
     max-width: 1366px;
 }
 
-@media screen and (max-width: 1365px){
+@media screen and (max-width: 1130px){
     .rooms {
         min-width: 768px;
     }
