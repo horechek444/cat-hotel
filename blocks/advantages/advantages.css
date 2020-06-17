@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 1365px){
     .advantages {
-        min-width: calc(768px - 45px * 2);
+        min-width: calc(100% - 45px * 2);
         padding: 120px 45px;
     }
 
