@@ -7,7 +7,15 @@
 @import url(./__text/assortment__text.css);
 @import url(./__text/_size/assortment__text_size_big.css);
 @import url(./__button/assortment__button.css);
+@import url(./__cover/assortment__cover.css);
 
 .assortment {
     min-width: 870px;
+}
+
+@media screen and (max-width: 1365px){
+    .assortment {
+        min-width: 678px;
+        width: 100%;
+    }
 }

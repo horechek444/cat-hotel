@@ -6,7 +6,7 @@
     z-index: 3;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px){
     .contacts__yandex-card {
         width: 600px;
         height: 522px;
@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 1000px){
     .contacts__yandex-card {
-        width: 399px;
+        max-width: 399px;
         height: 522px;
+        flex-shrink: 1;
     }
 }

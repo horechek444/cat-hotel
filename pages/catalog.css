@@ -17,6 +17,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/link-transform/link-transform.css);
 @import url(../blocks/disabled/disabled.css);
-@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/modal/_show/modal_show.css);
 @import url(../blocks/thanks/_show/thanks_show.css);
+@import url(../blocks/filter/_show/filter_show.css);

@@ -5,7 +5,7 @@
     align-items: flex-start;
     position: relative;
     background-image: url(../../../images/banner.jpg);
-    max-width: calc(1170px - 270px);
+    max-width: calc(100% - 270px);
     min-height: 379px;
     border-radius: 10px;
     padding: 0 0 0 270px;
@@ -16,4 +16,23 @@
     top: -50px;
     left: -25px;
     content: url(../../../images/banner_paw.svg);
+}
+
+@media screen and (max-width: 1365px){
+    .banner__background {
+        background-image: url(../../../images/banner_tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: calc(100% - 50px);
+        min-height: 359px;
+        border-radius: 10px;
+        padding: 0 0 0 50px;
+    }
+    
+    .banner__background::after {
+        position: absolute;
+        top: -50px;
+        left: -25px;
+        content: url(../../../images/banner_paw.svg);
+    }
 }

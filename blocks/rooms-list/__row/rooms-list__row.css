@@ -5,3 +5,9 @@
     max-width: 100%;
     padding: 60px 0 53px 0;
 }
+
+@media screen and (max-width: 1365px){
+    .rooms-list__row {
+        padding: 60px 0 50px 0;
+    }
+}

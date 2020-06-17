@@ -17,3 +17,14 @@
     transform: rotate(-180deg);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1365px){
+    .rooms-list__filter {
+        padding: 11px 60px 11px 35px;
+        max-height: calc(40px - 11px * 2);
+    }
+
+    .rooms-list__filter::after {
+        top: 27px;
+    }
+}

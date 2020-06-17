@@ -16,7 +16,7 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px){
     .contacts__card {
         width: 600px;
         height: 522px;
@@ -27,8 +27,9 @@
     .contacts__card {
         background-size: cover;
         background-position: 20% 80%;
-        width: 399px;
+        max-width: 399px;
         height: 522px;
+        flex-shrink: 1;
     }
     
     .contacts__card::before {

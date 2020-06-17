@@ -1,6 +1,6 @@
 .assortment__image {
-    position: relative;
-    top: -1px;
-    left: -21px;
-    margin-bottom: 25px;
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
 }

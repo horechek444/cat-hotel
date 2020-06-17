@@ -1,6 +1,7 @@
 .assortment__button {
     position: relative;
-    min-width: calc(230px - 56px - 65px);
+    min-width: calc(100% - 56px - 65px);
+    width: 100%;
     padding: 0 65px 0 56px;
     text-align: left;
     color: #FFFEFD;
