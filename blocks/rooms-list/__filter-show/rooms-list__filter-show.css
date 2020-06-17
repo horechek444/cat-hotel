@@ -12,6 +12,8 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 1.21;
+    background-color: white;
+    color: #1A212F;
 }
 
 .rooms-list__filter-show::before {

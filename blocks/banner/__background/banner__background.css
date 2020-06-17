@@ -13,9 +13,12 @@
 
 .banner__background::after {
     position: absolute;
+    content: '';
     top: -50px;
-    left: -25px;
-    content: url(../../../images/banner_paw.svg);
+    left: -20px;
+    width: 308px;
+    height: 323px;
+    background-image: url(../../../images/banner_paw.svg);
 }
 
 @media screen and (max-width: 1365px){
@@ -30,9 +33,11 @@
     }
     
     .banner__background::after {
-        position: absolute;
+        background-position: center;
+        background-size: contain;
+        width: 228px;
+        height: 243px;
         top: -50px;
         left: -25px;
-        content: url(../../../images/banner_paw.svg);
     }
 }
