@@ -1,4 +1,4 @@
-const catalogButton = document.querySelectorAll(".assortment__button");
+const catalogButtons = Array.from(document.querySelectorAll(".assortment__button"));
 const modalWindow = document.querySelector(".modal");
 const modalClose = modalWindow.querySelector(".modal__close");
 const bannerButton = document.querySelector(".banner__button");
@@ -11,7 +11,7 @@ const filterShow = document.querySelector(".rooms-list__filter-show");
 const filterClose = filterWindow.querySelector(".filter__close");
 
 /* Модальное окно каталога */
-let modalToggle = function(event) {
+let modalToggle = function() {
     modalWindow.classList.toggle("modal_show");
 }
 
@@ -20,12 +20,12 @@ modalClose.addEventListener("click", modalToggle);
 thanksClose.addEventListener("click", modalToggle);
 thanksButton.addEventListener("click", modalToggle);
 
-for (let i = 0; i < catalogButton.length; i++) {
-    catalogButton[i].addEventListener("click", modalToggle);
-}
+catalogButtons.forEach((catalogButton) => {
+    catalogButton.addEventListener("click", modalToggle);
+});
 
 /* Окно каталога с благодарностью */
-let thanksToggle = function(event) {
+let thanksToggle = function() {
     thanksWindow.classList.toggle("thanks_show");
 }
 

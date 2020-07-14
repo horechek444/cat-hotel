@@ -2,6 +2,25 @@
 @import url(./__link/navigation__link.css);
 @import url(./__item/navigation__item.css);
 
-.header__navigation {
+.navigation {
     
+}
+
+@media screen and (max-width: 580px){
+    .navigation {
+        display: none;
+        position: absolute;
+        top: 76px;
+        left: 0;
+        width: calc(100% - 15px * 2);
+        background-color: #FAC663;
+        padding: 42px 15px 30px;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .navigation {
+        top: 62px;
+    }
 }

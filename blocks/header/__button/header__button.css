@@ -1,0 +1,24 @@
+.header__button {
+    display: none;
+}
+
+@media screen and (max-width: 580px){
+    .header__button {
+        display: block;
+        background-image: url('../../../images/burger.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 34px;
+        height: 26px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header__button {
+        background-image: url('../../../images/burger.svg');
+        width: 22px;
+        height: 14px;
+    }
+}
