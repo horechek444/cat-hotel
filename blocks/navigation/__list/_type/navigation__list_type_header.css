@@ -1,0 +1,9 @@
+.navigation__list_type_header {
+
+}
+
+@media screen and (max-width: 580px){
+    .navigation__list {
+        flex-direction: column;
+    }
+}
