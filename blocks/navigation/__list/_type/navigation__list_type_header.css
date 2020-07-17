@@ -3,7 +3,7 @@
 }
 
 @media screen and (max-width: 580px){
-    .navigation__list {
+    .navigation__list_type_header {
         flex-direction: column;
     }
 }

@@ -24,3 +24,29 @@
         padding: 140px 0 0;
     }
 }
+
+@media screen and (max-width: 768px){
+    .main-banner__background {
+        background-size: cover;
+        min-height: calc(668px - 80px);
+        padding: 80px 0 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main-banner__background {
+        min-height: calc(568px - 80px);
+        padding: 60px 0 0;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .main-banner__background {
+        background: url(../../../images/mask_mobile.png), url(../../../images/cat_mobile.png);
+        background-repeat: no-repeat;
+        max-width: 100%;
+        width: 100%;
+        min-height: calc(457px - 50px);
+        padding: 50px 0 0;
+    }
+}

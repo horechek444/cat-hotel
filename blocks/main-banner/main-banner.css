@@ -17,8 +17,23 @@
     }
 }
 
-/* @media screen and (max-width: 768px){
-    .page__cover {
-        min-width: 320px;
+@media screen and (max-width: 768px){
+    .main-banner {
+        max-width: 568px;
+        min-height: 668px;
     }
-} */
+}
+
+@media screen and (max-width: 600px){
+    .main-banner {
+        max-width: 468px;
+        min-height: 568px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .main-banner {
+        max-width: 320px;
+        min-height: 457px;
+    }
+}

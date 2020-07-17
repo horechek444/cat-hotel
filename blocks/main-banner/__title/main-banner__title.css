@@ -4,3 +4,10 @@
     line-height: 1.18;
     font-weight: 700;
 }
+
+@media screen and (max-width: 450px){
+    .main-banner__title {
+        margin: 0 0 22px;
+        font-size: 44px;
+    }
+}
