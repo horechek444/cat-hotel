@@ -1,14 +1,14 @@
-.header__button {
+.header__button_show {
     display: none;
 }
 
 @media screen and (max-width: 580px){
-    .header__button {
+    .header__button_show {
         display: block;
-        background-image: url('../../../images/burger.svg');
+        background-image: url('../../../../images/cross.svg');
         background-repeat: no-repeat;
         background-size: contain;
-        width: 34px;
+        width: 26px;
         height: 26px;
         border: none;
         cursor: pointer;
@@ -17,8 +17,8 @@
 }
 
 @media screen and (max-width: 450px){
-    .header__button {
-        width: 22px;
-        height: 14px;
+    .header__button_show {
+        width: 16px;
+        height: 16px;
     }
 }

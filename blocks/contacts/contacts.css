@@ -10,6 +10,7 @@
 @import url(./__cards-cover/contacts__cards-cover.css);
 @import url(./__card/contacts__card.css);
 @import url(./__yandex-card/contacts__yandex-card.css);
+@import url(./__social/_type/contacts__social_type_header.css);
 
 .contacts {
     display: flex;
