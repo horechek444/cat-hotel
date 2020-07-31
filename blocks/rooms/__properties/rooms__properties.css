@@ -4,3 +4,9 @@
     padding: 0;
     min-width: 297px;
 }
+
+@media screen and (max-width: 450px){
+    .rooms__properties {
+        min-width: 140px;
+    }
+}

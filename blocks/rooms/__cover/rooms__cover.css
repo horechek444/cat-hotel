@@ -1,3 +1,9 @@
 .rooms__cover {
     display: flex;
 }
+
+@media screen and (max-width: 450px){
+    .rooms__cover {
+        flex-direction: column;
+    }
+}

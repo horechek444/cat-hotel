@@ -7,7 +7,7 @@
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-    grid-gap: 20px 30px;
+    gap: 20px 30px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -17,6 +17,12 @@
 @media screen and (max-width: 1365px){
     .cards {
         grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
-        grid-gap: 30px;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .cards {
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     }
 }

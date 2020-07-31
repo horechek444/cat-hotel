@@ -39,3 +39,18 @@
         height: 349px;
     }
 }
+
+@media screen and (max-width: 450px){
+    .advantages {
+        min-width: calc(100% - 15px * 2);
+        padding: 70px 15px;
+    }
+
+    .advantages::after {
+        background-position: left;
+        top: 50px;
+        right: -50px;
+        width: 169px;
+        height: 140px;
+    }
+}

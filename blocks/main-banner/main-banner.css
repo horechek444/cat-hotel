@@ -5,35 +5,38 @@
 @import url(./__button/main-banner__button.css);
 
 .main-banner {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 1366px;
     min-height: 504px;
 }
 
 @media screen and (max-width: 1000px){
     .main-banner {
-        max-width: 768px;
+        display: flex;
+        justify-content: center;
+        background-color: #FAC663;
+        max-width: 1000px;
         min-height: 868px;
     }
 }
 
 @media screen and (max-width: 768px){
     .main-banner {
-        max-width: 568px;
+        max-width: 768px;
         min-height: 668px;
     }
 }
 
 @media screen and (max-width: 600px){
     .main-banner {
-        max-width: 468px;
+        max-width: 600px;
         min-height: 568px;
     }
 }
 
 @media screen and (max-width: 450px){
     .main-banner {
-        max-width: 320px;
+        max-width: 450px;
         min-height: 457px;
     }
 }

@@ -13,15 +13,21 @@
 
 @media screen and (max-width: 1130px){
     .rooms__type {
-        position: relative;
         max-width: calc(345px - 40px * 2);
         max-height: calc(280px - 40px * 2);
         padding: 40px;
         left: -109px;
         top: 25px;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
-        border-radius: 8px;
-        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .rooms__type {
+        max-width: calc(290px - 25px * 2);
+        max-height: calc(282px - 25px * 2);
+        padding: 25px;
+        left: 0;
+        top: 0;
+        border-radius: 0 0 8px 8px;
     }
 }

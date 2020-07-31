@@ -39,3 +39,16 @@
         z-index: 0;
     }
 }
+
+@media screen and (max-width: 450px){
+    .rooms__item {
+        padding: 0 15px 70px;
+    }
+    
+    .rooms__item::after {
+        top: 70px;
+        left: 0;
+        width: 160px;
+        height: 56px;
+    }
+}
