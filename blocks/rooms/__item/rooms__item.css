@@ -1,9 +1,9 @@
 .rooms__item {
     position: relative;
-    display: flex;
+    display: none;
     flex-direction: column;
-    max-width: 100%;
-    padding: 0 168px 79px;
+    max-width: 1027px;
+    margin: 0 auto;
 }
 
 .rooms__item::after {
@@ -13,26 +13,20 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    top: 10px;
+    top: -80px;
     left: 0;
     width: 484px;
     height: 151px;
     z-index: 0;
 }
 
-@media screen and (max-width: 1365px){
+@media screen and (max-width: 1130px){
     .rooms__item {
-        padding: 0 15% 77px;
+        max-width: 678px;
     }
-}
 
-@media screen and (max-width: 900px){
-    .rooms__item {
-        padding: 0 45px 72px;
-    }
-    
     .rooms__item::after {
-        top: 50px;
+        top: -55px;
         left: 0;
         width: 340px;
         height: 106px;
@@ -40,13 +34,13 @@
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 700px){
     .rooms__item {
-        padding: 0 15px 70px;
+        max-width: 290px;
     }
     
     .rooms__item::after {
-        top: 70px;
+        top: -35px;
         left: 0;
         width: 160px;
         height: 56px;

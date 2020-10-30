@@ -7,6 +7,7 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/rooms/rooms.css);
 @import url(../blocks/selector/selector.css);
+@import url(../blocks/selector/_active/selector_active.css);
 @import url(../blocks/toggle/toggle.css);
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/contacts/contacts.css);

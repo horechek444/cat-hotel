@@ -1,23 +1,9 @@
 .rooms__selector {
-    position: absolute;
-    bottom: 12px;
-    left: 653px;
-}
-
-@media screen and (max-width: 1365px){
-    .rooms__selector {
-        left: 505px;
-    }
+    margin-left: 50%;
 }
 
 @media screen and (max-width: 900px){
     .rooms__selector {
-        left: 354px;
-    }
-}
-
-@media screen and (max-width: 450px){
-    .rooms__selector {
-        left: 130px;
+        margin: 0 auto;
     }
 }

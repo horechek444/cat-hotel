@@ -18,3 +18,9 @@
         box-sizing: border-box;
     }
 }
+
+@media screen and (max-width: 768px){
+    .cards__item {
+        padding: 20px;
+    }
+}

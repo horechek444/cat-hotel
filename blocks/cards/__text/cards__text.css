@@ -12,12 +12,13 @@
         font-size: 15px;
         line-height: 1.4;
         font-weight: 400;
-        max-width: 259px;
+        max-width: 274px;
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 768px){
     .cards__text {
-        max-width: 222px;
+        max-width: 250px;
+        text-align: left;
     }
 }

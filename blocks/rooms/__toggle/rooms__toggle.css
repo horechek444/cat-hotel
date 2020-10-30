@@ -1,5 +1,9 @@
 .rooms__toggle {
-    position: absolute;
-    bottom: 0;
-    right: 168px;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 900px){
+    .rooms__toggle {
+        display: none;
+    }
 }
