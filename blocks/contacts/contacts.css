@@ -19,9 +19,17 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     .contacts {
         min-width: 768px;
         max-height: 522px;
     }
-} 
+}
+
+@media screen and (max-width: 770px) {
+    .contacts {
+        flex-direction: column;
+        min-width: 100%;
+        max-height: 477px;
+    }
+}

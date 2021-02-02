@@ -1,5 +1,9 @@
 .feedback__toggle {
-    position: absolute;
-    bottom: 140px;
-    right: 168px;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 900px){
+    .feedback__toggle {
+        display: none;
+    }
 }

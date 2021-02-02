@@ -10,7 +10,7 @@
     flex-grow: 1;
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1300px) {
     .contacts__cover {
         width: 48%;
         max-height: 522px;
@@ -18,9 +18,17 @@
     }
 } 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     .contacts__cover {
         min-width: calc(369px - 45px - 65px);
         padding: 60px 45px 60px 45px;
     }
-} 
+}
+
+@media screen and (max-width: 770px) {
+    .contacts__cover {
+        /*width: 100%;*/
+        min-width: calc(100% - 15px - 60px);
+        padding: 38px 60px 38px 15px;
+    }
+}

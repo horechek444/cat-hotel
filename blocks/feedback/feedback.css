@@ -14,7 +14,7 @@
     flex-direction: column;
     position: relative;
     max-width: 1366px;
-    padding: 140px 0 219px;
+    padding: 140px 0 152px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -34,12 +34,23 @@
 @media screen and (max-width: 1365px){
     .feedback {
         min-width: 768px;
-        padding: 108px 0 182px;
+        padding: 108px 0 120px;
     }
 
     .feedback::after {
         right: -75px;
         width: 400px;
         height: 349px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .feedback {
+        min-width: 320px;
+        padding: 70px 0;
+    }
+
+    .feedback::after {
+        display: none;
     }
 }

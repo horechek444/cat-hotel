@@ -37,3 +37,17 @@
         left: 155px;
     }
 }
+
+@media screen and (max-width: 770px) {
+    .contacts__card {
+        background-position: 10% 90%;
+        width: 100%;
+        max-width: 100%;
+        height: 300px;
+    }
+
+    .contacts__card::before {
+        top: 50px;
+        left: 50px;
+    }
+}

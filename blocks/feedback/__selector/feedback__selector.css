@@ -1,17 +1,9 @@
 .feedback__selector {
-    position: absolute;
-    bottom: 152px;
-    left: 653px;
-}
-
-@media screen and (max-width: 1365px){
-    .feedback__selector {
-        left: 505px;
-    }
+    margin-left: 50%;
 }
 
 @media screen and (max-width: 900px){
     .feedback__selector {
-        left: 354px;
+        margin: 0 auto;
     }
 }
