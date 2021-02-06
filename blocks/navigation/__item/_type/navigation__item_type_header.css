@@ -2,12 +2,12 @@
 
 }
 
-@media screen and (max-width: 580px){
-    .navigation__item {
+@media screen and (max-width: 580px) {
+    .navigation__item_type_header:not(:last-of-type) {
         margin-bottom: 25px;
     }
 
-    .navigation__item:last-of-type {
+    .navigation__item_type_header:last-of-type {
         margin-bottom: 40px;
     }
 }
