@@ -5,3 +5,12 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 580px) {
+    .rooms-list__title {
+        font-size: 28px;
+        line-height: 1.18;
+        /*align-self: flex-start;*/
+        margin-bottom: 40px;
+    }
+}

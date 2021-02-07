@@ -16,3 +16,10 @@
         padding: 120px 45px;
     }
 }
+
+@media screen and (max-width: 580px){
+    .banner {
+        min-width: calc(100% - 15px * 2);
+        padding: 70px 15px;
+    }
+}

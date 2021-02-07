@@ -23,3 +23,10 @@
         padding: 0 45px;
     }
 }
+
+@media screen and (max-width: 580px){
+    .rooms-list {
+        min-width: calc(100% - 15px * 2);
+        padding: 0 15px;
+    }
+}
