@@ -9,6 +9,9 @@ const modalButton = document.querySelector('.modal__button');
 const filterWindow = document.querySelector('.filter');
 const filterShow = document.querySelector('.rooms-list__filter-show');
 const filterClose = filterWindow.querySelector('.filter__close');
+const sortButton = document.querySelector('.rooms-list__toggle');
+const sortList = document.querySelector('.rooms-list__filter');
+const sortItems = sortList.querySelectorAll('.rooms-list__item');
 
 /* Модальное окно каталога */
 const modalToggle = () => {
@@ -41,3 +44,14 @@ const filterToggle = () => {
 
 filterShow.addEventListener("click", filterToggle);
 filterClose.addEventListener("click", filterToggle);
+
+/* Сортировка */
+const sortFunction = () => {
+    sortList.classList.add("rooms-list__filter_active");
+    sortItems.forEach(sortItem => {
+        sortItem.classList.add("rooms-list__item_active");
+    });
+    sortButton.classList.add("rooms-list__toggle_active");
+}
+
+sortButton.addEventListener("click", sortFunction);

@@ -27,3 +27,11 @@
     color: #1A212F;
     opacity: 1;
 }
+
+@media screen and (max-width: 600px) {
+    .modal__item {
+        padding: 17px 20px;
+        font-size: 15px;
+        line-height: 1.19;
+    }
+}

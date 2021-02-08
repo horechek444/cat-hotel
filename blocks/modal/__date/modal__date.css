@@ -25,3 +25,15 @@
     color: #B5B5B5;
     opacity: 1;
 }
+
+@media screen and (max-width: 600px) {
+    .modal__date {
+        padding: 17px 15px;
+        max-width: 107px;
+        margin: 0 5px;
+    }
+
+    .modal__date:last-child {
+        margin: 0 0 0 5px;
+    }
+}

@@ -7,34 +7,15 @@
     padding: 13px 60px 13px 35px;
 }
 
-.rooms-list__filter::after {
-    position: absolute;
-    content: url(../../../images/arrow.svg);
-    width: 12px;
-    height: 6px;
-    top: 30px;
-    right: 25px;
-    transform: rotate(-180deg);
-    cursor: pointer;
-}
-
 @media screen and (max-width: 1365px){
     .rooms-list__filter {
         padding: 12px 60px 12px 35px;
         max-height: calc(40px - 12px * 2);
-    }
-
-    .rooms-list__filter::after {
-        top: 27px;
     }
 }
 
 @media screen and (max-width: 580px){
     .rooms-list__filter {
         padding: 12px 47px 12px 25px;
-    }
-
-    .rooms-list__filter::after {
-        right: 14px;
     }
 }

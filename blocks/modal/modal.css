@@ -7,6 +7,7 @@
 @import url(./__text/modal__text.css);
 @import url(./__date/modal__date.css);
 @import url(./__button/modal__button.css);
+@import url(./__dates/modal__dates.css);
 
 .modal {
     position: fixed;

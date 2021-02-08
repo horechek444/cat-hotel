@@ -9,7 +9,7 @@
 @import url(./__button/_type/filter__button_type_submit.css);
 @import url(./__button/_type/filter__button_type_reset.css);
 @import url(./__close/filter__close.css);
-@import url(./__conteiner/filter__conteiner.css);
+@import url(__container/filter__container.css);
 
 @media screen and (max-width: 1365px){
     .filter {

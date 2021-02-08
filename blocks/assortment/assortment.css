@@ -23,6 +23,5 @@
 @media screen and (max-width: 580px){
     .assortment {
         min-width: calc(320px - 15px * 2);
-        width: 100%;
     }
 }

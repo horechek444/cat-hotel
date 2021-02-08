@@ -2,3 +2,7 @@
     display: none;
     list-style: none;
 }
+
+.rooms-list__item:not(:first-of-type) {
+    margin-top: 15px;
+}
