@@ -293,6 +293,38 @@
             <span class="footer__copyright">Политика конфиденциальности</span>
         </div>
     </footer>
+
+    <section class="modal">
+        <div class="modal__container">
+            <button class="modal__close close" type="button"></button>
+            <h2 class="modal__title">Забронировать номер</h2>
+            <form class="modal__form" action="#">
+                <input class="modal__item" type="text" placeholder="Ваше имя">
+                <input class="modal__item" type="text" placeholder="Имя Питомца">
+                <input class="modal__item" type="tel" placeholder="Телефон">
+                <input class="modal__item" type="email" placeholder="E-mail">
+                <div class="modal__cover">
+                    <span class="modal__text modal__text_type_date">Дата заезда</span>
+                    <div class="modal__dates">
+                        <label class="modal__text" for="first-date"> с
+                            <input class="modal__date" name="first-date" type="text" placeholder="26.01.2020">
+                        </label>
+                        <label class="modal__text" for="last-date"> по
+                            <input class="modal__date" name="last-date" type="text" placeholder="26.02.2020">
+                        </label>
+                    </div>
+                </div>
+                <button class="button modal__button" type="button">Отправить заявку</button>
+            </form>
+        </div>
+
+        <div class="thanks">
+            <button class="thanks__close close" type="button"></button>
+            <h2 class="thanks__title">Спасибо за заявку!</h2>
+            <p class="thanks__subtitle">Мы свяжемся с вами в ближайшее время</p>
+            <button class="button thanks__button" type="button">Ок</button>
+        </div>
+    </section>
 </div>
 <script src='./scripts/header.js'></script>
 </body>
